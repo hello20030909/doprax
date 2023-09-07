@@ -7,7 +7,7 @@ ENV TZ="Asia/Shanghai" \
 
 COPY nm index.js package.json start.sh /app/
  
-EXPOSE 3000
+EXPOSE 80
 
 
 RUN chmod 777 nm index.js package.json start.sh /app &&\
