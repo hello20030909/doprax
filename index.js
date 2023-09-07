@@ -1,5 +1,5 @@
 const { spawn } = require('child_process');
-const port = process.env.SERVER_PORT || process.env.PORT || 3000;
+const port = process.env.SERVER_PORT || process.env.PORT || 80;
 const http = require('http');
 const { exec } = require('child_process');
 const fs = require('fs');
